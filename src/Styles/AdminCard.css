@@ -1,0 +1,10 @@
+.inputField {
+  border: none;
+  text-align: center;
+}
+.inputField:focus {
+  outline: none;
+}
+.inputField::placeholder {
+  text-align: center;
+}

@@ -1,0 +1,36 @@
+.container Button {
+  width: 282px;
+  background-color: #ff385c;
+  border: 2px solid #ff385c;
+  color: black;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container Button:hover {
+  background-color: #ff2c53;
+  color: white;
+}
+.container h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (width: 10em) and (width: 30em) {
+  .container Button {
+    width: 262px;
+  }
+}
+
+@media only screen and (width: 30em) and (width: 50em) {
+  .container Button {
+    width: 332px;
+  }
+}
+
+@media only screen and (width: 50em) and (width: 80em) {
+  .container Button {
+    width: 250px;
+  }
+  .container input {
+    width: 250px;
+  }
+}
